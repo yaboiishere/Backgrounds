@@ -1,1 +1,2 @@
-py c:\Users\mixai\Pictures\Backgrounds\get_new_backgrounds.py
+cd c:\Users\mixai\Pictures\Backgrounds\
+py get_new_backgrounds.py

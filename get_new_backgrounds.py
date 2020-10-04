@@ -8,7 +8,7 @@ for f in os.listdir(oc_directory):
     try:
         image = Image.open(oc_directory+"\\"+f)
         witdth, height = image.size
-        if witdth == 1920 and height == 1080:
+        if witdth >= 1920 and height >= 1080:
             shutil.copy(oc_directory+"\\"+f, new_directory)
     except FileExistsError:
         os.rmdir(new_directory+"\\"+f)
