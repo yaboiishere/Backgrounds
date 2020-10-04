@@ -1,0 +1,1 @@
+py c:\Users\mixai\Pictures\Backgrounds\get_new_backgrounds.py
