@@ -1,6 +1,6 @@
 import shutil, os
 from PIL import Image
-oc_directory = "C:\\Users\\mixai\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\Assets"
+oc_directory = os.path.expanduser("~") + "\\AppData\\Local\\Packages\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\LocalState\\Assets"
 new_directory = os.getcwd() + "\\new"
 
 
